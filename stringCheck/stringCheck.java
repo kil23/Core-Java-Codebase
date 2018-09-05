@@ -47,6 +47,8 @@ class stringCheck{
 		}else{
 			System.out.println("s8!=s7");
 		}
-
+		 float d=1.0f;
+		 d++;
+		 System.out.println(d);
 	}
 }
