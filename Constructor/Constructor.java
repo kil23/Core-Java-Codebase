@@ -1,19 +1,23 @@
 
 class A{
 	{
+		i=0;
 		System.out.println("This is init block code A");
 	}
+	int i;
 	A(){
-		this(10); // This will call Parameterized constructor A
+		j = A(10); // This will call Parameterized constructor A
 
 		//System.out.println("This is init block code A");
 
-		System.out.println("Constructor A running");
+		System.out.println("Constructor A running "+i);
 	}
-	A(int c){
+	int j;
+	int A(int c){
 
 		//System.out.println("This is init block code A");
 		System.out.println("Parameterized Constructor A running");
+		return 1;
 	}
 }
 

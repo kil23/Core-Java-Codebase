@@ -14,39 +14,52 @@ class Outer{
 		}
 	}
 
-	static class Inner2{
+	static class StaticInner{ // Static Nested Class
 		int z = 10;
 		static int z1 = 11;
+		
 		static void dis(){
-			System.out.println("Static Inner class: "+z1);
+			System.out.println("Static method of Static Nested class: "+z1);
+		}
+
+		void d(){
+			System.out.println("Instance method of Static Nested class");
 		}
 	}
 
 	void t1(){
 		for(int i=0;i<5;i++){
-			class Inner1{
+			class MethodInner{ // Method Local Inner Class
 
 				void disp(){
 					System.out.println("Inner class within a for_loop: "+outer_x);
 				}
 			}
-			Inner1 in1 = new Inner1();
+			MethodInner in1 = new MethodInner(); // Object creation of Method Local Inner class
 			in1.disp();
 		}
 	}
-	/*void showy(){
-		System.out.println("Variable y inside a inner class: "+y); // CE: y cannot be found.
-	}*/
+
+	public static void main(String args[]){
+		Outer.Inner i = new Outer().new Inner(); // Accessing Inner(non-static) class from within an Outer class
+ 		i.display();
+	}
 }
 
 class Nested_Inner {
 	public static void main(String args[]){
 		Outer out = new Outer();
-		out.test();
-		out.t1();
-		System.out.println(Outer.Inner2.z1);
-		Outer.Inner2 inner2obj = new Outer.Inner2();
-		System.out.println(inner2obj.z);
-		Outer.Inner2.dis();
+		Outer.Inner i = out.new Inner();
+		i.display(); // Accessing Inner class from outside of Outer class
+		
+		System.out.println();
+		
+		out.test(); // Accessing method of Outer class
+		out.t1(); //Accessing method of Outer class which contains Inner class
+		System.out.println(Outer.StaticInner.z1); // Accessing static variable of Static Nested class
+		Outer.StaticInner inner2obj = new Outer.StaticInner();
+		System.out.println(inner2obj.z); // Accessing instance variable of Static Nested class
+		Outer.StaticInner.dis(); // Accessing Static method of Static Nested class
+		inner2obj.d();
 	}
 }
