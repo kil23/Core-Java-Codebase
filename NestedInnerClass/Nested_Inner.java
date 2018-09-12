@@ -19,7 +19,9 @@ class Outer{
 		static int z1 = 11;
 		
 		static void dis(){
+			Outer o1 = new Outer();
 			System.out.println("Static method of Static Nested class: "+z1);
+			System.out.println("Static method of Static Nested class: "+o1.outer_x);
 		}
 
 		void d(){
@@ -43,6 +45,7 @@ class Outer{
 	public static void main(String args[]){
 		Outer.Inner i = new Outer().new Inner(); // Accessing Inner(non-static) class from within an Outer class
  		i.display();
+ 		StaticInner.dis();
 	}
 }
 
