@@ -16,7 +16,9 @@ class B {
 	final int b = 5;
 	static int i;
 	final Integer j=5;
-	static {
+	
+	static
+	{
 		 i = 7;
 	}
 
@@ -27,8 +29,8 @@ class B {
 
 	public Integer b1(){
 		System.out.println("class B is executing...");
-		System.out.println(j);
-		System.out.println(b);
+		System.out.println(j);	// Its an object . So it will be changed at runtime.
+		System.out.println(b); // It will replace value of b to 5 everywhere it is used.
 		A a = new A();
 		a.m1();
 		return new Integer(j);

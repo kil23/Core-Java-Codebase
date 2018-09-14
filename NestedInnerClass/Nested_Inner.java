@@ -45,7 +45,7 @@ class Outer{
 	public static void main(String args[]){
 		Outer.Inner i = new Outer().new Inner(); // Accessing Inner(non-static) class from within an Outer class
  		i.display();
- 		StaticInner.dis();
+ 		StaticInner. dis();
 	}
 }
 

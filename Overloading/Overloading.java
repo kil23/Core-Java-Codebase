@@ -8,6 +8,14 @@ class Overloading{
 // declared and one inherited) have the same name but signatures that are not override-equivalent, then the 
 // method name is said to be overloaded.
 
+	static void Test1(int i, int j, int... varargs){
+		System.out.println("varargs");
+	}
+
+	static void Test1(int i, int arr[]){
+		System.out.println("array");
+	}
+
 	static void add(int a, int b){
 		int c = a + b;
 		System.out.println(c);
@@ -46,5 +54,6 @@ class Overloading{
 							   // If a match is found that method gets executed else type promotion takes place.
 		add(3.0f, 5); // Order does matter in method overloading.But due to type promotion this is overriden.
 		add(3, 5.0f);
+		Test1(3,4);
 	}
 }

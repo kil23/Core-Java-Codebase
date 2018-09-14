@@ -35,6 +35,6 @@ class StaticInstanceMethod extends Test{
  		t.t1(); // a call to t1 method of class Test will happen in this case.
 		staticInstanceMethod.t1(); // t1 method of this class will run normally as we are using object of same class.
 		t1.t1(); // Overridden method t1 of this class will run in this case.
-		Test.t2(); // Calling static method of another class using the name of the class, dot operator and method name.
+		t2(); // Calling static method of another class using the name of the class, dot operator and method name.
 	}
 }
