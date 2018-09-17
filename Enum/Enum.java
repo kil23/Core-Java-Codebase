@@ -24,7 +24,28 @@ class Enum{
 	}
 
 	enum ESport{
-		Csgo, Dota, Pubg, Fortnite;
+		Csgo{
+			public int members(){
+				return 5;
+			}
+
+		}, Dota{
+			public int members(){
+				return 5;
+			}
+
+		}, Pubg{
+			public int members(){
+				return 4;
+			}
+
+		}, Fortnite{
+			public int members(){
+				return 4;
+			}
+
+		};
+		public abstract int members();
 	}
 
 	public static void main(java.lang.String args[]){
@@ -40,7 +61,7 @@ class Enum{
 
 		ESport[] es = ESport.values();
 		for(ESport ev : es){
-			System.out.println(ev+ " ");
+			System.out.println(ev+ " "+ev.members());
 		}
 
 		Day[] daysOfWeek = Day.values();

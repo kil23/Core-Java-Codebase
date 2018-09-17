@@ -32,6 +32,9 @@ class B extends A{
 		this(); // This will call no-arg Constructor B
 		System.out.println("Parameterized Constructor B running");
 	}
+	public static void main(String args[]){
+		
+	}
 }
 
 class Constructor{
