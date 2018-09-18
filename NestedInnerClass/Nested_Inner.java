@@ -36,9 +36,21 @@ class Outer{
 				void disp(){
 					System.out.println("Inner class within a for_loop: "+outer_x);
 				}
+
+				void d1(){
+					System.out.println("Another method inside 1st MLIC");
+				}
+			}
+			class Met{
+				void d2(){
+					System.out.println("Another class inside MLIC");
+				}
 			}
 			MethodInner in1 = new MethodInner(); // Object creation of Method Local Inner class
 			in1.disp();
+			in1.d1();
+			Met x = new Met();
+			x.d2();
 		}
 	}
 

@@ -13,7 +13,7 @@ class B extends A{  // This will give error bcoz final classes cannot inherited
 
 class B {
 	final int a;
-	final int b = 5;
+	int b = 6;
 	static int i;
 	final Integer j=5;
 	
