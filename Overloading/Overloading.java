@@ -8,6 +8,14 @@ class Overloading{
 // declared and one inherited) have the same name but signatures that are not override-equivalent, then the 
 // method name is said to be overloaded.
 
+	/*static void Test1(int i, Integer j){
+		System.out.println("Integer is 2nd arg");
+	}*/
+
+	static void add(Integer i, int j){
+		System.out.println("Integer is 1st arg");
+	}
+
 	static void Test1(int i, int j, int... varargs){
 		System.out.println("varargs");
 	}

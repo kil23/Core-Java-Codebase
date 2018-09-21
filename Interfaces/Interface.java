@@ -5,11 +5,13 @@ An interface can extend an interface but only child class can implement those in
 Interface methods are public and abstract by default.
 Interface variables are public, static and final by default.
 Interface can contain static methods as well with its implementation. Thus we can write Main() as well inside an Interface.
-Interface also have Default method which are additional methods added later in the interface and are inherited by all classes
-implementing that interface.
-Interface can have an object. Hence static methods are allowed in Interface.
+Interface also have Default method which are additional methods added later in the interface .
+Interface cannot have an object. Hence static methods are allowed in Interface.
 Interface do not have a Constructor to instantiate any variables of object.
 Interface static or default methods are not inherited directly. They need to be called using Interface name.
+Default methods act like non-static methods only and are inherited in the class that implements the interface.
+Static methods can be called even if the child class doesn't implements the interface using Interface.method().
+Default methods can be overriden in child class to have its own implementation.
 */
 
 /*
@@ -27,7 +29,7 @@ interface Sum{
 	void add(int i, int j);
 	default void add2(int i, int j){
 		int sum = i + j;
-		System.out.println(sum+ " Default method");
+		System.out.println(sum+ " Sum Default method");
 	}
 	static void add3(int i, int j){
 		int sum = i + j;
@@ -49,7 +51,10 @@ class Interface implements Sum,Add{
 		int sum = i + j;
 		System.out.println(sum + " Abstract method");
  	}
-
+ 	public void add2(int i, int j){
+		int sum = i + j;
+		System.out.println(sum+ " class Default method");
+	}
 	public static void main(String[] args){
 		Interface i = new Interface();
 		i.add(3,5);

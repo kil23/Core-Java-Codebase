@@ -23,7 +23,7 @@ class Enum{
 		}
 	}
 
-	enum ESport{
+	/*enum ESport{
 		Csgo{
 			public int members(){
 				return 5;
@@ -46,7 +46,7 @@ class Enum{
 
 		};
 		public abstract int members();
-	}
+	}*/
 
 	public static void main(java.lang.String args[]){
 		Color []colors = Color.values();
@@ -59,11 +59,11 @@ class Enum{
 			System.out.println("String: "+ s.name());
 		}
 
-		ESport[] es = ESport.values();
+		/*ESport[] es = ESport.values();
 		for(ESport ev : es){
 			System.out.println(ev+ " "+ev.members());
 		}
-
+*/
 		Day[] daysOfWeek = Day.values();
 		for(Day today : daysOfWeek){
 			switch(today){

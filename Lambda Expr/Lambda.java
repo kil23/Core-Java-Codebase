@@ -1,6 +1,8 @@
 /*
+A Lambda Expression is a block of code that you can pass around so it can be executed later, once or multiple times.
 A Lambda Expression is a function which can be created without belonging to any class.
-A lambda expr thus can be passed around as if it was an object and executed on demand.
+A Lambda Expr thus can be passed around as if it was an object and executed on demand.
+A LE consists of list of parameters, a body, a return type and a list of exceptions which can be thrown.
 They are generally used to implement simple event listener/ callbacks or in functional programming.
 Functional programming is very often used to implement event listener.
 Event Listeners in java are often defined as Java interface with single method. This method is called 
