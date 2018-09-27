@@ -19,8 +19,10 @@ class Box{
 
 class Wild{
 	public static void main(String [] args){
+		List<? extends Integer> intList = new ArrayList<>();
+		List<? extends Number>  numList = intList;
 		List<Number> n = new ArrayList<>(); // This works perfectly fine as we are expected to pass Number list and we are doing that.
-			n.add(10);
+			n.add(new Integer());
 			n.add(10.2);
 		List<Integer> li = Arrays.asList(1,2,3); // In this case it work becoz we are passing predefined Interger list.
 		List<Double> d = Arrays.asList(1.2,2.3,3.4); // same .. here we have Double list
