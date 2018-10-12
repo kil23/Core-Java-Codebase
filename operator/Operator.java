@@ -18,6 +18,9 @@ class Operator{
 		System.out.println("Remainder when "+a+" is divided by "+b+" is "+(a%b));
 		System.out.println("Negative of a is "+-a+ " and that of b is "+-b);
 
+
+		String s7 = "Hi " + new String("Hello")+ " Hi";
+		System.out.println(s7);
 	}
 
 	static byte byteMethod(byte a, byte b){
