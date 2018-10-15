@@ -19,6 +19,8 @@ class Low{
 
 	public static void main(String args[]){
 		List<Number> l = new ArrayList<Number>();
+		List<? super Integer> i = new ArrayList<Number>();
+		addNumber(i);
 		addNumber(l);
 	}
 }
