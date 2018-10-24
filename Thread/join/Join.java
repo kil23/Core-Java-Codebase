@@ -25,6 +25,7 @@ class Join{
 		Runnable r = new MyThread();
 		Thread t1 = new Thread(r);
 		t1.setName("Suraj");
+		t1.setPriority(7);
 		t1.start();
 		Thread t2 = new Thread(r);
 		t2.setName("Sai");

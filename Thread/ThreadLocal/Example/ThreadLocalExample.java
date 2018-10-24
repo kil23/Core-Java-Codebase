@@ -8,6 +8,7 @@ class ThreadLocalExample{
 
 			try{
 				Thread.sleep(1000);
+				System.out.println(ti);
 			}catch(InterruptedException e){		}
 
 			System.out.println(ti.get());
@@ -18,6 +19,6 @@ class ThreadLocalExample{
 		Thread t1 = new Thread(new MyRun());
 		Thread t2 = new Thread(new MyRun());
 		t1.start();
-		t2.start();
+		t2.start();	
 	}
 }

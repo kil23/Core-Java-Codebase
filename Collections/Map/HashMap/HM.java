@@ -6,6 +6,7 @@ class HM{
 		h.put("Hey", 10);
 		h.put("Hi", 20);
 		h.put("Hello", 30);
+		System.out.println(h.put("Hey", 50));
 
 		System.out.println("Size of HashMap is "+h.size());
 

@@ -4,19 +4,16 @@ class A{
 
 	}
 
-	void m1() throws java.io.IOException{
+	void m1() throws java.lang.Exception{
 		try(Resources r = new Resources(); 
 			Resource1 r2 = new Resource1()){
-		throw new Exception("m1 exception");
-
-			//System.out.println("inside try-with-resources...");
+			System.out.println("inside try-with-resources...");
+			throw new Exception("m1 exception");
 		}
 		catch(Exception e){
 			System.out.println(e);
 			System.out.println(10);
-			for(Throwable t : e.getSuppressed()){
-			System.out.println(t);	
-			}
+			throw new Exception("catch");
 		}
 	}
 }
@@ -42,7 +39,10 @@ class TryWithResources{
 			a.m2();
 		}catch(Exception e){
 			System.out.println(e);
+			for(Throwable t : e.getSuppressed()){
+			System.out.println(t);	
+			}
 		}
-		System.out.println("Main running...");
+		System.out.println("Main ends here...");
 	}
 }

@@ -35,8 +35,15 @@ class ThreadLocalDemo{
 		System.out.println("The numeric value: "+ti.get());
 		System.out.println("The numeric value: "+tf.get());
 		System.out.println("The numeric value: "+td.get());
+		
 
+		ThreadLocal<Object> td1 = new ThreadLocal<>();
 
+		td1.set(new Object());
+
+		System.out.println("The numeric value: "+td1.get());
+		System.out.println("The numeric value: "+td1.get());
+		
 
 	}
 }

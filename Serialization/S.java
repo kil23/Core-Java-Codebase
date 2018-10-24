@@ -23,7 +23,7 @@ class S{
 		System.out.println("a = "+e.a);
 		System.out.println("b = "+e.b);
 		System.out.println("age = "+e.age);
-		System.out.println("serializeUid = "+e.\serializeUid);
+		System.out.println("serializeUid = "+e.serializeUid);
 	}
 
 	public static void main(String[] args){

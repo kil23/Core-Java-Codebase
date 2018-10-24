@@ -23,6 +23,10 @@ class Class1{
 		void p(){
 			System.out.println(c.a);
 		}
+
+		static void test(){
+			System.out.println("static method of Box");
+		}
 	}
 
 	public void add(int a , int c){
@@ -41,6 +45,7 @@ class Class1{
 		System.out.println("Value of instance variables is: "+obj.a+" "+obj.b);
 		Box b1 = new Box();
 		b1.p();
+		b1.test();
 		b1.width = 5;
 		b1.height = 6;
 		b1.depth = 7;
