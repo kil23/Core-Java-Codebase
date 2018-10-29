@@ -4,8 +4,10 @@ class Demo{
 	static int max = 100;
 	static Thread odd ;
 	static Thread even ;
+	static OddNum o = new OddNum();
+	static EvenNum e = new EvenNum();
 
-	static class OddNum extends Thread{
+	static class OddNum implements Runnable{
 		@Override
 		public void run(){
 			odd.setName("Odd");
@@ -13,13 +15,12 @@ class Demo{
 				
 				System.out.print(Thread.currentThread().getName() + " "+number); // print first
 					
-				synchronized(even){
+				synchronized(e){
 					number++;  // increment and notify second
-					
-					even.notify();
+					e.notify();
 				}
 				
-				synchronized(odd){
+				synchronized(o){
 					try{
 						if(number<max){
 							wait();  // wait third
@@ -32,14 +33,16 @@ class Demo{
 		}
 	}
 
-	static class EvenNum extends Thread{
+	static class EvenNum implements Runnable{
 	 	@Override
 	 	public void run(){
 	 		even.setName("Even");
 			while(number<=max){
-				synchronized(even){
+				synchronized(e){
 					try{
 						if(number<max){
+							
+
 							wait();  //   Wait first
 						}
 					}catch(InterruptedException e){
@@ -47,21 +50,20 @@ class Demo{
 					}
 				}
 				System.out.println(" "+Thread.currentThread().getName() + " "+number);  // Print second
-				synchronized(odd){
+				synchronized(o){
 					number++;  // Increment and notify third
 					
-					odd.notify();
+					o.notify();
 				}
-				
-					
 				
 			}
 		}
 	}
 
 	public static void main(String args[]){
-		odd = new OddNum();
-		even = new EvenNum();		
+		
+		odd = new Thread(o);
+		even = new Thread(e);		
 		odd.start();
 		even.start();
 	}

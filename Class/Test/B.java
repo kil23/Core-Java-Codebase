@@ -1,7 +1,9 @@
 class A{
 	final int a1;
-	A(){
-		a1 = 10;
+	A(){a1 = 10;}
+
+	static void test(){
+		
 	}
 }
 

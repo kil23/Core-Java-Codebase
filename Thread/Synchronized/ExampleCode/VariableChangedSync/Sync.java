@@ -1,6 +1,6 @@
 class MyThread extends Thread{
 	
-	public volatile static int i = 5;
+	public static int i = 5;
 	//public int j = 10;
 
 	public void run(){
@@ -10,7 +10,7 @@ class MyThread extends Thread{
 			try{
 				o.m1();
 				Thread.sleep(500);
-				m2();			
+				MyThread.m2();			
 			}catch(InterruptedException e){
 				System.out.println(e);
 			}
@@ -20,7 +20,7 @@ class MyThread extends Thread{
 			try{
 				o.m1();
 				Thread.sleep(500);
-				m2();	
+				o.m2();	
 			}catch(InterruptedException e){
 				System.out.println(e);
 			}
@@ -29,15 +29,26 @@ class MyThread extends Thread{
 		
 	}
 
-	public synchronized void m1(){
-		MyThread.i++;
-		System.out.println(Thread.currentThread().getName()+" "+i);
-	}
+	 /*
 
-	public static synchronized void m2(){
-		i++;
-		System.out.println(Thread.currentThread().getName()+" "+i);
-	}
+	 This code is not synchronized properly becoz we have object lock on one method and class level lock on another method.
+	 So we can make changes to static variable inside both method simultaneously.. In order to avoid this ambiguity we can 
+	 make (1)synchronized method as synchronized block and take lock on same object which is static and final and declared globally
+	 (2) or just surround the increment operation within a new synchronized block and call it using global object lock which is 
+	 static and final and declared in global space...
+	 
+*/
+	 public synchronized void m1(){  
+	 	MyThread.i++;
+	 	System.out.println(Thread.currentThread().getName()+" "+i);
+	 }
+
+	 public static synchronized void m2(){
+	 	i++;
+	 	System.out.println(Thread.currentThread().getName()+" "+i);
+	 }
+
+	
 
 }
 

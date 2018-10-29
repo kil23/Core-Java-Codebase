@@ -2,43 +2,43 @@ import java.io.*;
 
 class A {
 
-	void m1()throws InterruptedException{
+	void m1(){
 		try{
 			System.out.println("normal m1 starts..1.."+Thread.currentThread().getName()+" "+System.currentTimeMillis());
 			Thread.sleep(1000);
-			System.out.println("normal m2 ends..1.."+Thread.currentThread().getName()+" "+System.currentTimeMillis());
+			System.out.println("normal m1 ends..1.."+Thread.currentThread().getName()+" "+System.currentTimeMillis());
 		}catch(InterruptedException e){
 			System.out.println(e);
 		}
 	}
 
-	synchronized void m2()throws InterruptedException{
+	synchronized void m2(){
 		try{
-			System.out.println("sync 22 block starts..."+Thread.currentThread().getName()+" "+System.currentTimeMillis());
+			System.out.println("sync normal m2 starts..."+Thread.currentThread().getName()+" "+System.currentTimeMillis());
 			Thread.sleep(1000);
-			System.out.println("sync 22 block ends....."+Thread.currentThread().getName()+" "+System.currentTimeMillis());
+			System.out.println("sync normal m2 ends....."+Thread.currentThread().getName()+" "+System.currentTimeMillis());
 			System.out.println();
 		}catch(InterruptedException e){
 			System.out.println(e);
 		}
 	}
 
-	synchronized static void m3()throws InterruptedException{
+	synchronized static void m3(){
 		try{
-			System.out.println("sync 333 block starts.."+Thread.currentThread().getName()+" "+System.currentTimeMillis());
+			System.out.println("sync static m3 starts.."+Thread.currentThread().getName()+" "+System.currentTimeMillis());
 			Thread.sleep(1000);
-			System.out.println("sync 333 block ends...."+Thread.currentThread().getName()+" "+System.currentTimeMillis());
+			System.out.println("sync static m3 ends...."+Thread.currentThread().getName()+" "+System.currentTimeMillis());
 			System.out.println();
 		}catch(InterruptedException e){
 			System.out.println(e);
 		}
 	}
 
-	synchronized static void m4()throws InterruptedException{
+	synchronized static void m4(){
 		try{
-			System.out.println("sync 4444 block starts."+Thread.currentThread().getName()+" "+System.currentTimeMillis());
+			System.out.println("sync static m4 starts."+Thread.currentThread().getName()+" "+System.currentTimeMillis());
 			Thread.sleep(1000);
-			System.out.println("sync 4444 block ends..."+Thread.currentThread().getName()+" "+System.currentTimeMillis());
+			System.out.println("sync static m4 ends..."+Thread.currentThread().getName()+" "+System.currentTimeMillis());
 			System.out.println();
 		}catch(InterruptedException e){
 			System.out.println(e);
@@ -76,6 +76,19 @@ class MyClass implements Runnable {
 				System.out.println(e);
 			}
 		}
+		if(Thread.currentThread().getName().equals("t3")){
+			try{
+				a.m1();
+				Thread.sleep(500);
+				A.m3();
+				Thread.sleep(500);
+				a.m2();
+				Thread.sleep(500);
+				a.m4();		// Cannot execute with t4 thread...
+			}catch(InterruptedException e){
+				System.out.println(e);
+			}
+		}
 	}
 }
 
@@ -86,15 +99,15 @@ class ClassLevel{
 		
 			Thread t1 = new Thread(m);
 			Thread t2 = new Thread(m);
+			Thread t3 = new Thread(m);
 			
 			t1.setName("t1");
 			t2.setName("t2");
+			t3.setName("t3");
 			
 			t1.start();
 			t2.start();
-			
-		
-		System.out.println("End of Main method...");
+			t3.start();
 
 	}
 }

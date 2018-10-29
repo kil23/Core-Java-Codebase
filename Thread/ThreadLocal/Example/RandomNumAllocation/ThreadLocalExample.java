@@ -8,10 +8,16 @@ class ThreadLocalExample{
 
 			try{
 				Thread.sleep(1000);
-				System.out.println(ti);
+				System.out.println(Thread.currentThread().getName()+" "+ti);
+				m1();
 			}catch(InterruptedException e){		}
 
-			System.out.println(ti.get());
+			//System.out.println(Thread.currentThread().getName()+" "+ti.get());
+		}
+
+		public void m1(){
+			System.out.println("m1 method running...");
+			System.out.println(Thread.currentThread().getName()+" "+ti);
 		}
 	}
 

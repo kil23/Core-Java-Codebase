@@ -1,7 +1,7 @@
 import java.io.*;
 
 class A {
-	void m1() throws InterruptedException{
+	void m1() {
 		try{
 			System.out.println("m1 method of class A.1."+Thread.currentThread().getName()+" "+System.currentTimeMillis());
 			Thread.sleep(500);
@@ -10,7 +10,7 @@ class A {
 		}
 	}
 
-	void m2()throws InterruptedException{
+	void m2(){
 		try{
 			System.out.println("m2 method of class A.2."+Thread.currentThread().getName()+" "+System.currentTimeMillis());
 			Thread.sleep(500);
@@ -19,21 +19,21 @@ class A {
 		}
 	}
 
-	synchronized void m3()throws InterruptedException{
+	synchronized void m3(){
 		try{
-			System.out.println("sync block m3 starts.3."+Thread.currentThread().getName()+" "+System.currentTimeMillis());
+			System.out.println("sync method m3 starts.3."+Thread.currentThread().getName()+" "+System.currentTimeMillis());
 			Thread.sleep(1000);
-			System.out.println("sync block m3 endsss.3."+Thread.currentThread().getName()+" "+System.currentTimeMillis());
+			System.out.println("sync method m3 endsss.3."+Thread.currentThread().getName()+" "+System.currentTimeMillis());
 		}catch(InterruptedException e){
 			System.out.println(e);
 		}
 	}
 
-	synchronized void m4()throws InterruptedException{
+	synchronized void m4(){
 		try{
-			System.out.println("sync block m4 starts..4.."+Thread.currentThread().getName()+" "+System.currentTimeMillis());
+			System.out.println("sync method m4 starts..4.."+Thread.currentThread().getName()+" "+System.currentTimeMillis());
 			Thread.sleep(1000);
-			System.out.println("sync block m4 endsss..4.."+Thread.currentThread().getName()+" "+System.currentTimeMillis());
+			System.out.println("sync method m4 endsss..4.."+Thread.currentThread().getName()+" "+System.currentTimeMillis());
 		}catch(InterruptedException e){
 			System.out.println(e);
 		}

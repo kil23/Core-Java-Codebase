@@ -7,6 +7,8 @@ class WaitDemo implements Runnable{
 			notify();
 		}
 	}
+
+	public 
 	
 	public static void main(String args[]){
 		WaitDemo w = new WaitDemo();
