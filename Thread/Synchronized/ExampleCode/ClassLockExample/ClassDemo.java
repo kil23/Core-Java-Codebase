@@ -8,9 +8,9 @@ class ClassDemo{
 		synchronized(Class.class){ 								// Method returning Objects is also works fine...
 			System.out.println("Inside sync ClassLock class block...");
 		}
-		synchronized(A.class){ 								// Method returning Objects is also works fine...
-			System.out.println("Inside sync A-Lock class block...");
-		}
+		// synchronized(A.class){ 								// Method returning Objects is also works fine...
+		// 	System.out.println("Inside sync A-Lock class block...");
+		// }
 	}
 
 	public static void main(String args[]){
