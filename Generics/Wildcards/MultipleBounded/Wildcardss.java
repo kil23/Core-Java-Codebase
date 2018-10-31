@@ -24,8 +24,8 @@ class Wildcardss{
 	public static void main(String []args){
 		Bound<A> b = new Bound<A>(new A());
 		b.doRunTest();
-		Bound<Wildcardss> c = new Bound<Wildcardss>(new Wildcardss());
-		c.doRunTest();
+		// Bound<Wildcardss> c = new Bound<Wildcardss>(new Wildcardss());
+		// c.doRunTest();
 
 	}
 }
