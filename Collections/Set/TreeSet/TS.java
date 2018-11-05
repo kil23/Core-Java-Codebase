@@ -1,3 +1,23 @@
+/*
+
+TREESET
+- It extends AbstractSet and implements NavigableSet interface.
+- It creates a collection that uses a tree for storage.
+- Objects are stored in sorted, ascending order.
+- Access and retrieval times are quite fast, which makes TreeSet an excellent choice when sorting large
+  amounts of sorted information that must be found quickly.
+- TreeSet is also generic " class TreeSet<E>"
+- It has 4 constructors 1) TreeSet()	2) TreeSet(Collection<? extends E> c)
+  4) TreeSet(Comparator<? super E> comp)  4) TreeSet(SortedSet<E> ss)
+- TS is a NavigableSet implementation which is based on TreeMap and ordering of element is based on Comparable or
+  Comparator based on the type of constructor used.
+- Provides a guaranted log(n) time cost for add(), remove() and contains().
+- Note that ordering maintained by a set must be consistent with equals() if it is to correctly implement Set interface.
+- Also this implementation of Set is not synchronized. If multiple threads access a treeset concurrently and atleast one 
+  of the threads modifies the set, it must be synchronized externally.
+  Collections.synchronizedSortedSet(new TreeSet()) can be used for synchronizing it.
+*/
+
 import java.util.*;
 
 class TS{

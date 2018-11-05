@@ -5,6 +5,9 @@ class InstanceStaticBlock{
 		}catch(Exception e){
 			System.out.println(e);
 		}
+		if(1==1){
+			throw new RuntimeException();
+		}
 	}
 
 	InstanceStaticBlock() throws RuntimeException{
