@@ -18,9 +18,8 @@ HASHSET
 - Default hashset created is of size 16 and fill ratio of 0.75 
 - HS has 4 constructor 1) HashSet() 2) HashSet(Collection <? extends E> c) 3) HashSet(int capacity) 
   4) HashSet(int capacity, float fillRatio) fillRatio determines how full HashSet can be before it resizes again.
-  A constructor which does not take a fill ratio, 0.75 is used.
+  A constructor which does not take a fill ratio, 0.75 is used as default value for capacity.
 - It doesnot define any additional methods beyond those provided by its superclass and interfaces.
-- 
 
 */
 

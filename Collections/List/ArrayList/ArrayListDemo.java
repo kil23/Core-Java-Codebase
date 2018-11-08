@@ -80,7 +80,7 @@ class Test{
 			li.set(123);
 			li.add(11111);	
 		}
-		System.out.print(a1);
+		System.out.println(a1);
 
 		List<String> letters = new ArrayList<String>();
 		letters.add("A");
@@ -90,7 +90,15 @@ class Test{
 		for (String letter : letters) {
     		letters.set(i, "D");
 		}
-		System.out.print(letters);
+		System.out.println(letters);
+
+//********************************************************************************************************************************************		
+		List<? extends Number> a = new ArrayList<Integer>();
+		a.add(null);
+		List<Float> l = new ArrayList<>(a);
+		l.add(6.0);
+		
+		System.out.println(l);
 	}
 }
 

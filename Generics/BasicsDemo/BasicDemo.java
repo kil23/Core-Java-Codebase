@@ -17,7 +17,7 @@ GENERICS:
 - Generics works only with Reference Types. So when you declare an instance of generic type, Type-Argument passed to the
   type-parameter must be a reference type.Thus primitive types cannot be assigned directly as parameter-types.
   ( Also primitive types does not extends Object and after compilation all Generic types are converted to Object using Type-Erasure. )
-- If primitive values are provided as parameters then those values will be autoboxed directly using respective Wrapper classes.
+- If primitive values are provided as parameters then those values will be autoboxed directly using respective Wrapper class.
 - Thus Generics expanded your ability to reuse code and let you have tpe-safety without any type-casting with ease.
 
 */
