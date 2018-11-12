@@ -26,7 +26,7 @@ HASHMAP:
 - Default load factor is 0.75 which offers good tradeoff between time and space costs.
   Default initial capacity is 16.
 - If we have bad hash function and all elements are assigned to one bucket only then if may take O(n) time to traverse.
-  So in order to avoid this, they are converted into trees ehich have O(log n) time now.
+  So in order to avoid this, they are converted into trees which have O(log n) time now.
 	It uses Red-Black tree data structure internally and the map will be converted to tree if it crosses threshold value
 	i.e static field int TREEIFY_THRESHOLD = 8;
 - Expected number of entries in the map and its load factor should be taken into account when setting its inital capacity,
@@ -49,32 +49,88 @@ HASHMAP:
 
 import java.util.*;
 
-class HM{
+class HM {
+
 	public static void main(String args[]){
+
 		HashMap<String, Integer>h = new HashMap<>();
-		h.put("Hey", 10);
+		h.put("Hey", 10);  // first key-value pair is inserted here using put(key, value)
 		h.put("Hi", 20);
 		h.put("Hello", 30);
-		System.out.println(h.put("Hey", 50));
+		h.put("HelloWorld", 40);
+		h.put("", 50);
+		h.put(null, 60);
+		System.out.println(h.put("HelloWorld", 70));// returns null if there is no match for that key...else returns oldValue that is overridden.
 
-		System.out.println("Size of HashMap is "+h.size());
+		System.out.println("Size of HashMap is "+h.size()); // returns the hashmap size
 
-		print(h);
+		print(h); // prints the hashmap using the method print(Map m)
 
-		if(h.containsKey("Hey")){
-			Integer i = h.get("Hey");
-			System.out.println("Hey is to be printed "+i);
+		if(h.containsKey("Hey")){ // checks for specific key in the HashMap and returns true if present.
+			Integer i = h.get("Hey"); // this is used to get the value associated with that key
+			System.out.println("Hey is to be printed "+i); // printing the value
 		}
-		h.clear();
-		print(h);
+
+		System.out.println();
+		Map<String, Integer> h2 = new HashMap<>(h); // One way to create a copy of hashmap by using constructor with hashmap as attribute.
+		System.out.println("Printing new copy of hashmap: ");
+		print(h2);
+
+		HashMap<String, Integer> h3 = new HashMap<>(10);
+		h3.putAll(h2); // Other way to create a copy of hashmap using this method with hashmap passed as parameter.
+		System.out.println("Copied hashmap using putAll() :");
+		print(h3);
+		System.out.println(" ");
+		HashMap<String, Integer> h4 = (HashMap)h3.clone();
+		System.out.println(h4 + " is the shallow cloned object.");
+		System.out.println();
+
+		System.out.println("KeySet in hashmap is "+h3.keySet()); // provides a set of all key in the hashmap.
+		System.out.println("entrySet in hashmap is "+ h3.entrySet()); // provides a set of all entries in the hashmap.
+		System.out.println("ValueSet in hashmap is "+ h3.values()); // provides a collection of all values in the hashmap.
+
+		System.out.println();
+		System.out.println("Keyset for loop: ");
+		for(String s : h4.keySet()){ // iterate using keySet
+			System.out.println(s);
+		}
+
+		System.out.println();
+		System.out.println("values for loop: ");
+		for(Integer i : h4.values()){ // iterate using values
+			System.out.println(i);
+		}
+
+		System.out.println();
+		printEMap(h4);
+		System.out.println(h4); // this proves that any changes using entrySet/keySet/values will affect main hashset.
+		System.out.println();
+
+		if(h3.containsValue(20)){ // this method checks for that specific value and returns true if present.
+			System.out.println(h3.remove("Hi")); // removes the K-V pair from hashmap and returns value of removed pair.
+		}
+		System.out.println(h3.remove("HelloHi")); // returns null if the key-valued pair is not present.
+		print(h3);
+
+		h.clear(); // used to clear all records in the hashmap.
+		print(h); // printing empty hashmap.
 
 	}
 
-	public static void print(Map<String, Integer> m){
-		if(m.isEmpty()){
-			System.out.println("Map is Empty...");
+	public static void printEMap(Map hm){
+		Iterator it = hm.entrySet().iterator();
+		System.out.println("Using iterator using entrySet: ");
+		while(it.hasNext()){
+			Map.Entry p = (Map.Entry)it.next();
+			System.out.println(p.getKey()+" "+p.getValue());
+			it.remove();
 		}
-		else{
+	}
+
+	public static void print(Map<String, Integer> m){
+		if(m.isEmpty()){ // checks for empty hashmap
+			System.out.println("Map is Empty...");
+		}else{
 			System.out.println("Map is "+m);
 		}
 	}
