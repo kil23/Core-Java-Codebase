@@ -7,7 +7,7 @@
 - Useful in Cache Memory implementations between Primary memory and Secondary memory.
 - Also this implementation of Set is not synchronized. If multiple threads access a treeset concurrently and atleast one 
   of the threads modifies the set, it must be synchronized externally.
-  Collections.synchronizedSet(new TreeSet()) can be used for synchronizing it.
+  Collections.synchronizedSet(new LinkedHashSet()) can be used for synchronizing it.
 - Its a implementation of Set with predictable iteration order.
 - This class provides all optional Set operations and permits null elements.
 - Like HashSet, it provides constant-time performance for basic operations like add(), contains() and remove()

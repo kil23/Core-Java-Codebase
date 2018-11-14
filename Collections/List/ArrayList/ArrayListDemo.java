@@ -15,8 +15,8 @@ ARRAYLIST
 - All operations are done in O(1) time like size(), isEmpty(), get(0, set(), iterator() and listIterator() except add() 
   which takes O(n) time.
 - AL implementation is not synchronized i.e multiple threads can perform AL operation concurrently. So if we need thread
-  safety, synchronization should be done externally by using " Collections.synchronizedList(new AL()) " which is present
-  in Collections class. 
+  safety, synchronization should be done externally by using
+  				 Collections.synchronizedList(new AL()) 
 - It throws ConcurrentModificationException if any modifications(remove or add) is done after creation of Iterator. In order
   to make changes afterward use ListIterator's add() or remove() method.
 - modCount field keeps tract of number of times the list has been structurally modified. So every method that modifies list 
