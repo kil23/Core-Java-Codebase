@@ -70,6 +70,7 @@ STREAMS:
 - Stream's reduce() takes BiFunction(a Function whose apply() takes two arguments and produces one value) and
   applies to pairs of elements from the stream, returning a value.
 - reduce() is used if you want a custom reduce function. Or you can use count(), sum(), average() for reduction.
+- peek() takes a Consumer and allows you to peek into the stream as the elements flow by. It doesnot affect the stream.
 */
 
 import java.util.*;
@@ -101,7 +102,7 @@ class SD{
     long res = nums.stream()
                    .map(n-> n*n)
                    .filter(n -> (n%3==0))
-                   .peek(n -> System.out.println("Number/3 is: "+n))
+                   .peek(n -> System.out.println("Number/3 is: "+n))  // another intermediate method to print each number in the stream.
                    .count();
     System.out.println(res);
   }
