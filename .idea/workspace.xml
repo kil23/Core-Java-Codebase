@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0b211875-da10-407a-a207-ed803a2ed00a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class and Objects/Class_Theory.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Constructor/InitializationBlockExample/InstanceInitializationBasicExample/InitializationBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Constructor/InitializationBlockExample/InstanceInitializationInheritanceExample/InitializationInheritanceBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Constructor/InitializationBlockExample/StaticInitializationBasicExample/StaticInitializationBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExceptionHandling/BasicIO/OutFile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class/Box.class" beforeDir="false" afterPath="$PROJECT_DIR$/Class and Objects/BaseExample/Box.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class/Class1$Box.class" beforeDir="false" afterPath="$PROJECT_DIR$/Class and Objects/Class1$Box.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class/Class1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Class and Objects/BaseExample/Class1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class/Class1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Class and Objects/BaseExample/Class1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class/Test/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/Class and Objects/TestExample/A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class/Test/B.class" beforeDir="false" afterPath="$PROJECT_DIR$/Class and Objects/TestExample/B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class/Test/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/Class and Objects/TestExample/B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Constructor/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/Constructor/BaseExample/A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Constructor/B.class" beforeDir="false" afterPath="$PROJECT_DIR$/Constructor/BaseExample/B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Constructor/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/Constructor/BaseExample/Base.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Constructor/Constructor.class" beforeDir="false" afterPath="$PROJECT_DIR$/Constructor/BaseExample/Constructor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Constructor/Constructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Constructor/BaseExample/Constructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Constructor/ConstructorCall/Const.java" beforeDir="false" afterPath="$PROJECT_DIR$/Constructor/ExplicitConstructorCallExample/Const.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Constructor/Derived.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Constructor/MethodInSuper/B.class" beforeDir="false" afterPath="$PROJECT_DIR$/Constructor/MethodInSuper/B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Constructor/MethodInSuper/MetInSuper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Constructor/MethodInSuper/MetInSuper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/BasicIO/ListOfNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/BasicIO/ListOfNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/BasicIO/ListOfNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/BasicIO/ListOfNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/BasicIO/OutFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Constructor/Contructor_Theory.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/Error/CustomError/CustomError.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/Error/CustomError/CustomError.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/Error/CustomError/ErrorDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/Error/CustomError/ErrorDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/Error/CustomError/ErrorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/Error/CustomError/ErrorDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/Error/ErrorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/Error/ErrorDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/Error/OutOfMemoryError/MyThread1.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/Error/OutOfMemoryError/MyThread1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/Error/OutOfMemoryError/OutofMemory.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/Error/OutOfMemoryError/OutofMemory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/Error/OutOfMemoryError/OutofMemory.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/Error/OutOfMemoryError/OutofMemory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/Error/StackOverFlowError/MyThread1.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/Error/StackOverFlowError/MyThread1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/Error/StackOverFlowError/MyThread2.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/Error/StackOverFlowError/MyThread2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/Error/StackOverFlowError/SOFE.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/Error/StackOverFlowError/SOFE.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/Error/StackOverFlowError/SOFE.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/Error/StackOverFlowError/SOFE.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/InitBlock/InitBlockException.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/InitBlock/InitBlockException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/InitBlock/InitBlockException.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/InitBlock/InitBlockException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/InstanceStaticBlockException/InstanceStaticBlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/InstanceStaticBlockException/InstanceStaticBlock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/InstanceStaticBlockException/InstanceStaticBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/InstanceStaticBlockException/InstanceStaticBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/MultiCatch/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/MultiCatch/A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/MultiCatch/B.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/MultiCatch/B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/MultiCatch/MultiCatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/MultiCatch/MultiCatch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/MultiCatch/MultiCatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/MultiCatch/MultiCatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/Rethrow/ExceptionRethrow$FirstException.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/Rethrow/ExceptionRethrow$FirstException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/Rethrow/ExceptionRethrow$SecondException.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/Rethrow/ExceptionRethrow$SecondException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/Rethrow/ExceptionRethrow$ThirdException.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/Rethrow/ExceptionRethrow$ThirdException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/Rethrow/ExceptionRethrow.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/Rethrow/ExceptionRethrow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/Rethrow/ExceptionRethrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/Rethrow/ExceptionRethrow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/SubclassException/SubclassException.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/SubclassException/SubclassException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/SubclassException/SubclassException.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/SubclassException/SubclassException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/ThrowInitCause/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/ThrowInitCause/A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/ThrowInitCause/ThrowDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/ThrowInitCause/ThrowDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/ThrowInitCause/ThrowDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/ThrowInitCause/ThrowDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/TryCatchFinally/TryCatch/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/TryCatchFinally/TryCatch/A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/TryCatchFinally/TryCatch/TryCatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/TryCatchFinally/TryCatch/TryCatch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/TryCatchFinally/TryCatch/TryCatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/TryCatchFinally/TryCatch/TryCatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/TryCatchFinally/TryCatchError/CustromizedError.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/TryCatchFinally/TryCatchError/CustromizedError.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/TryCatchFinally/TryCatchError/TCE.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/TryCatchFinally/TryCatchError/TCE.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/TryCatchFinally/TryCatchError/TCE.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/TryCatchFinally/TryCatchError/TCE.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/TryCatchFinally/TryCatchFinally/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/TryCatchFinally/TryCatchFinally/A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/TryCatchFinally/TryCatchFinally/TryCatchFinally.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/TryCatchFinally/TryCatchFinally/TryCatchFinally.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/TryCatchFinally/TryCatchFinally/TryCatchFinally.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/TryCatchFinally/TryCatchFinally/TryCatchFinally.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/TryCatchFinally/TryCatchFinallyException/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/TryCatchFinally/TryCatchFinallyException/A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/TryCatchFinally/TryCatchFinallyException/TryCatchFinally/TCF.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/TryCatchFinally/TryCatchFinallyException/TryCatchFinally/TCF.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/TryCatchFinally/TryCatchFinallyException/TryCatchFinally/TCF.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/TryCatchFinally/TryCatchFinallyException/TryCatchFinally/TCF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/TryCatchFinally/TryCatchFinallyException/TryCatchFinallyException.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/TryCatchFinally/TryCatchFinallyException/TryCatchFinallyException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/TryCatchFinally/TryCatchFinallyException/TryCatchFinallyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/TryCatchFinally/TryCatchFinallyException/TryCatchFinallyException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/TryCatchFinally/TryCatchMultiple/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/TryCatchFinally/TryCatchMultiple/A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/TryCatchFinally/TryCatchMultiple/TryCatchMultiple.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/TryCatchFinally/TryCatchMultiple/TryCatchMultiple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/TryCatchFinally/TryCatchMultiple/TryCatchMultiple.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/TryCatchFinally/TryCatchMultiple/TryCatchMultiple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/TryCatchFinally/TryFinallyException/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/TryCatchFinally/TryFinallyException/A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/TryCatchFinally/TryFinallyException/TryFinallyException.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/TryCatchFinally/TryFinallyException/TryFinallyException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/TryCatchFinally/TryFinallyException/TryFinallyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/TryCatchFinally/TryFinallyException/TryFinallyException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/TryCatchFinally/TryFinallyReturnValue/TryFinallyReturn.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/TryCatchFinally/TryFinallyReturnValue/TryFinallyReturn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/TryCatchFinally/TryFinallyReturnValue/TryFinallyReturn.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/TryCatchFinally/TryFinallyReturnValue/TryFinallyReturn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/TryWithRes/Resources.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/TryWithRes/Resources.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/TryWithRes/TryWithRes.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/TryWithRes/TryWithRes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/TryWithRes/TryWithRes.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/TryWithRes/TryWithRes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/TryWithResOrder/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/TryWithResOrder/A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/TryWithResOrder/Resource1.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/TryWithResOrder/Resource1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/TryWithResOrder/Resources.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/TryWithResOrder/Resources.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/TryWithResOrder/TryWithResources.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/TryWithResOrder/TryWithResources.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/TryWithResOrder/TryWithResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/TryWithResOrder/TryWithResources.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Overloading/Overloading.class" beforeDir="false" afterPath="$PROJECT_DIR$/Polymorphism/Overloading/Overloading.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Overloading/Overloading.java" beforeDir="false" afterPath="$PROJECT_DIR$/Polymorphism/Overloading/Overloading.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Overriding/B.class" beforeDir="false" afterPath="$PROJECT_DIR$/Polymorphism/Overriding/B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Overriding/Overridding.class" beforeDir="false" afterPath="$PROJECT_DIR$/Polymorphism/Overriding/Overridding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Overriding/Overridding.java" beforeDir="false" afterPath="$PROJECT_DIR$/Polymorphism/Overriding/Overridding.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Class and Objects/BaseExample/Class1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ExceptionHandling/InstanceStaticBlockException/InstanceStaticBlock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Constructor/InitializationBlockExample/StaticInitializationBasicExample/StaticInitializationBlock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Constructor/Contructor_Theory.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="407">
+              <caret line="42" column="46" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/stringCheck/stringCheck.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Constructor/MethodInSuper/MetInSuper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="11" column="5" selection-start-line="8" selection-start-column="4" selection-end-line="11" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Class and Objects/Class_Theory.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="421">
+              <caret line="30" column="145" selection-start-line="30" selection-start-column="145" selection-end-line="30" selection-end-column="145" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>block</find>
+      <find>instance</find>
+    </findStrings>
+    <dirStrings>
+      <dir>C:\Users\Lenovo\Documents\project\Core Java Codebase</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Class/Class1.java" />
+        <option value="$PROJECT_DIR$/Class/ClassTheory.txt" />
+        <option value="$PROJECT_DIR$/Class/Class_Theory.txt" />
+        <option value="$PROJECT_DIR$/Class and Objectss/Class_Theory.txt" />
+        <option value="$PROJECT_DIR$/Constructor/BaseExample/Constructor.java" />
+        <option value="$PROJECT_DIR$/Constructor/MethodInSuper/MetInSuper.java" />
+        <option value="$PROJECT_DIR$/Constructor/InitalizationBlockExample/InitailizationBlock.java" />
+        <option value="$PROJECT_DIR$/Constructor/InitializationBlockExample/InitailizationBlock.java" />
+        <option value="$PROJECT_DIR$/Constructor/InitializationBlockExample/InitializationBlock.java" />
+        <option value="$PROJECT_DIR$/Constructor/InitializationBlockExample/InitializationInheritanceExample/InitializationInheritanceBlock.java" />
+        <option value="$PROJECT_DIR$/Constructor/InitializationBlockExample/StaticInitializationBasicExample/StaticInitializationBlock.java" />
+        <option value="$PROJECT_DIR$/Constructor/Contructor_Theory.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1347" />
+    <option name="height" value="689" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Core Java Codebase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Core Java Codebase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Core Java Codebase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Core Java Codebase" type="462c0819:PsiDirectoryNode" />
+              <item name="stringCheck" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582627991268" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\Documents\project\Core Java Codebase\Polymorphism" />
+      <recent name="C:\Users\Lenovo\Documents\project\Core Java Codebase\Constructor\InitializationBlockExample\InitializationBasicExample" />
+      <recent name="C:\Users\Lenovo\Documents\project\Core Java Codebase\Constructor\BaseExample" />
+      <recent name="C:\Users\Lenovo\Documents\project\Core Java Codebase\Class\BaseExample" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0b211875-da10-407a-a207-ed803a2ed00a" name="Default Changelist" comment="" />
+      <created>1582612559552</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582612559552</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32960895" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Class and Objects/Class_Theory.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="30" column="145" selection-start-line="30" selection-start-column="145" selection-end-line="30" selection-end-column="145" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Constructor/MethodInSuper/MetInSuper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="5" selection-start-line="8" selection-start-column="4" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Class and Objects/BaseExample/Class1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Constructor/BaseExample/Constructor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Constructor/InitializationBlockExample/InstanceInitializationInheritanceExample/InitializationInheritanceBlock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="41" column="48" lean-forward="true" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
+          <folding>
+            <element signature="e#124#125#0" expanded="true" />
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#479#480#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Constructor/InitializationBlockExample/InstanceInitializationBasicExample/InitializationBlock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExceptionHandling/InstanceStaticBlockException/InstanceStaticBlock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Constructor/ExplicitConstructorCallExample/Const.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Constructor/InitializationBlockExample/StaticInitializationBasicExample/StaticInitializationBlock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Constructor/Contructor_Theory.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="42" column="46" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stringCheck/stringCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
