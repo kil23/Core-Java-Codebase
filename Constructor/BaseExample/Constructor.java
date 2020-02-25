@@ -46,3 +46,19 @@ class Constructor{
 		A a = new A(); // It will call parameterized Constructor A
 	}
 }
+
+/*
+OUTPUT:
+
+This is init block code A
+Parameterized Constructor A running
+Constructor A running 0
+This is init block code B
+Constructor B running
+Parameterized Constructor B running
+This is init block code A
+Parameterized Constructor A running
+Constructor A running 0
+
+
+ */

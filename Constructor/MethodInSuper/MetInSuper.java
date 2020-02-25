@@ -26,3 +26,12 @@ class MetInSuper{
 		B b = new B();
 	}
 }
+
+/*
+OUTPUT :
+
+A constructor
+A parameterized constructor
+B noargs constructor
+
+ */

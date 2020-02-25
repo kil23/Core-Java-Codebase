@@ -1,12 +1,4 @@
 import java.lang.*;
-//Class declaration can be done as follows..
-/*
-class Class{
-	//fields
-	//constructor
-	//method declarations inside a class	
-}
-*/
 
 class Class1{
 	int a,b; // instance variables has unique value for each object

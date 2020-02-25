@@ -1,0 +1,43 @@
+Constructor :
+    - It is a special method with same name as the class.
+    - It is used to initialize member variables associated to that object to specific default values while creating an object.
+    - When we create an object 'new A()' where A() is a constructor call which will initialize all the member variables associated to that object
+      to some default values.
+    - A Constructor can't be used to initialize static variables as static members are associated to class but not objects of that class.
+    - A Constructor can only be called during object creation and constructor chaining and cannot be called explicitly anywhere.
+    - A Constructor should be marked public in order to be able to create an object of that class from anywhere in our project.
+      If we mark it as private, it can only be called from within the class.
+    - A Constructor cannot be marked as STATIC because of few reasons as follows:
+        - If marked as static, we cannot use SUPER() or this() call in the constructor of the child class to access parent class constructor.
+        - Also if we make it static, it will be called before the object creation and will be called only once when class is loaded.
+    - There are different types of constructors in java :
+        - Default Constructor : Added explicitly while compilation when no constructor is described. Body is empty.
+        - Parameterised Constructor : With one or more parameters.
+        - No-arg Constructor : Without any constructor.
+    - A Constructor does not a return type or returns anything.
+    - If a parameterized Constructor is written and no No-arg constructor is written and new A() is called then it throws error. Hence, if a
+      parameterized constructor is declared then it needs to be called.
+    - A Constructor cannot be Override as Constructor acts at class level.
+    - All the code inside the Instance Initialization Block(IIB) is copied to the Constructor during compilation.
+
+Constructor Chaining :
+    - It is the technique where constructor calls another constructor to form a chain.
+    - It happens when a class extends another class. When object of the child class is created, it call the constructor of its immediate parent
+      and that parent calls the constructor of its own parent and it keeps on going until a class is reached which does not extend any other
+      class. Here, constructor of Object class is called and execution of this constructor is finished first.
+    - SUPER() or this() is used to call these parent or child constructor respectively. This call needs to be on the first statement and it is added
+      explicitly if not written by the developer. This is because JVM wants to initialize extended class and call its constructor in order to avoid
+      not knowing about any calls that is related to that uninitialized extended class members that are inherited to child class.
+    - this() or this(3) can be used to call the constructor of the same class which needs to have different parameters.
+
+Initialization Block :
+    - There are two types of Initialization block in java :
+        - Instance Initialization Block
+        - Static Initialization Block
+    - Instance block is used to initialize instance variables. All the code inside this block is copied to the constructor of the class. If we have
+      multiple constructors then this block's code is copied to that constructor which is called first in the class.
+    - If a variable is initialized after the instance initialization block and it is being using in the block then FORWARD REFERENCE exception is
+      thrown because the variable is not yet declared and we are using it. It is necessary to declare the variables used in these block before
+      using them.
+    - Static block is used to initialize static variables and it runs when class is loaded. Hence it is executed only once. We can also call these
+      static variables inside the Constructor.

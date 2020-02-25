@@ -1,0 +1,31 @@
+Class :
+    - A Class is nothing but a user defined blueprint or prototype from which objects are created.
+    - A Class can represent a Real World Object which has similar characteristic features and behavior.
+    - A class describe object's characteristics using fields and object's behavior using methods which is implemented inside a class.
+    - In order to run a java class, public static void main(String[] args) method needs to be present.
+    - A java class is complied using command, 'javac C.java' which creates a bytecode file as 'C.class'
+    - Java is platform independent but JVM dependent. Hence, java files can be executed in any machine containing respective JVM using this bytecode.
+    - JVM(Java Virtual Machine) is responsible to convert this bytecode to machine understandable language.
+    - To run this bytecode we can use command 'java C' which executes the C.class bytecode file and displays the results.
+    - A class can have any number of objects.
+    - Class declaration can be done as follows..
+
+class Class{
+	//fields
+	//constructor
+	//method declarations inside a class
+}
+
+Objects :
+    - An Object is an instance of a class.
+    - It stores state in fields(variables) and behavior in methods.
+    - There are different types of objects present in a class.
+    - Instance Variables are defined in class scope and each object have their own copy of these variables with same or different values during
+      run time of the program. Any change to any instance variable of one object does not change the value in other instance variable.
+    - Static Variables are also defined in class scope and each object have only one single copy of these variables. Any change to the value of
+      static variable is affected to every object of that class, as each object has access to same copy of these variables.
+    - Local Variables are defined inside a method scope and its not accessible outside the scope of the method. A local variable take precedence
+      over any class variables if they have same name.
+    - In order to get value of an instance variable, we need to create an object of that class and use dot operator to access the value - 'obj.a = 50';
+    - To access a static variable, we can use the class name directly as static variables belongs to the class - 'A.b = 10;'
+    - We can crete an object of a class within the same class. This is how we access all the member variables in the Main method which is static.
